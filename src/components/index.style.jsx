@@ -1,18 +1,25 @@
 import styled from "@emotion/styled";
 
 export const StyledMaceta = styled.div`
-  background-color:color(255,255,255);
+  width: 200px;
   height: 250px;
-  width: 100px;
-  border:  1px solid black;
+  background-color: brown;
+  border-radius: 50% / 10% 10% 50% 50%;
+  position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction:column-reverse;
   `
 
 export const StyledWater = styled.div`
-  background-color: blue;
+  width: 200px;
+  background: rgb(2,0,36);
+background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(25,25,128,1) 13%, rgba(0,212,255,1) 100%);
+  border-radius: 50% / 10% 10% 50% 50%;
+  position: relative;
+  overflow: hidden;
   height: ${props => props.height}px;
-  width: 100px;
   transition: height 3s ease-in-out;
   
   `
+

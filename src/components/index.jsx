@@ -1,4 +1,5 @@
 import { StyledMaceta } from "./index.style";
+
 import { StyledWater,StyledGota,StyledWaterGota } from "./index.style";
 
 
